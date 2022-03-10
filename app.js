@@ -62,7 +62,7 @@ function spinWheel(){
         this.sound.play('drum');
         this.pin.visible=false;
         this.yougot.visible=true;
-        this.add.text(55,270, `You got ${prizes_config.prize_names[idx]}! Congratulations :D`,{
+        this.add.text(55,270, `You got ${prizes_config.prize_names[idx]}! Congratulations Myre :D`,{
             fontSize: '40px',
             fontFamily: 'Arial',
             color: 'red',
